@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap');
+.locationsrootclass {
+    width: 100%;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+.locationsrootclass>h3{
+  font-family: "Quicksand";
+  /* color: #fff; */
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.locationsrootclass>p{
+  font-family: "Quicksand";
+  /* color: #fff; */
+  font-size: small;
+  text-decoration: none;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.locationtable {
+    width: 80%;
+    margin: auto;
+    /* border-collapse: collapse; */
+    text-align: left;
+}
+
+.locationtable span {
+    font-family: 'Quicksand', sans-serif;
+    /* color: white; */
+    font-size: large;
+}
+
+.locationtable th{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.uppelocationtablertable td {
+    border-collapse: collapse;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.retuningrow td{
+    border: 1px solid #333;
+    /* color: #f2f2f2; */
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+} 
+.locationtable td{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.imgtd{
+    width: 12%;
+}
+.imgtd>div{
+    width: 30%;
+    margin: auto;
+}
+.locationtable td>img{
+    width: 100%;
+}
